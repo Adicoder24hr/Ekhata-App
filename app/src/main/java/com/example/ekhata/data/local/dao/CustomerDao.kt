@@ -30,6 +30,9 @@ interface CustomerDao {
     @Query("SELECT * FROM customers WHERE name LIKE '%' || :searchQuery || '%'")
     fun searchCustomer(searchQuery: String): Flow<List<CustomerEntity>>
 
+    @Query("SELECT * FROM customers WHERE totalPendingAmount > 0 ORDER BY totalPendingAmount DESC")
+    fun getCustomersWithPendingUdhar(): Flow<List<CustomerEntity>>
+
     @Query("UPDATE customers SET totalPendingAmount = totalPendingAmount + :amount WHERE id = :customerId")
     suspend fun updatePendingAmount(amount: Double, customerId: Int)
 
