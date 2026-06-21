@@ -3,6 +3,17 @@
     <style name="Base.Theme.Ekhata" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_secondary</item>
+
+        <!-- Apply Poppins globally -->
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="fontFamily">@font/poppins</item>
+
     </style>
 
     <style name="Theme.Ekhata" parent="Base.Theme.Ekhata" />

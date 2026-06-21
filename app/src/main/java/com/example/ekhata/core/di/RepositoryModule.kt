@@ -1,10 +1,10 @@
-package com.example.ekhata.di
+package com.example.ekhata.core.di
 
-import com.example.ekhata.data.local.dao.CustomerDao
+import com.example.ekhata.features.customer.data.local.dao.CustomerDao
 import com.example.ekhata.data.local.dao.TransactionDao
-import com.example.ekhata.repository.impl.CustomerRepositoryImpl
+import com.example.ekhata.features.customer.data.repository.CustomerRepositoryImpl
 import com.example.ekhata.repository.impl.TransactionRepositoryImpl
-import com.example.ekhata.repository.repo.CustomerRepository
+import com.example.ekhata.features.customer.domain.repository.CustomerRepository
 import com.example.ekhata.repository.repo.TransactionRepository
 import dagger.Module
 import dagger.Provides

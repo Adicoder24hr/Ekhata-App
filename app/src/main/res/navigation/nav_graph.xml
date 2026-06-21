@@ -2,26 +2,22 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/dashboardFragment">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.ekhata.ui.home.HomeFragment"
-        android:label="Home"/>
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.ekhata.features.customer.presentation.ui.DashboardFragment"
+        android:label="Home" >
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_addCustomerFragment"
+            app:destination="@+id/addCustomerFragment"/>
+
+    </fragment>
 
     <fragment
-        android:id="@+id/customersFragment"
-        android:name="com.example.ekhata.ui.customer.CustomersFragment"
-        android:label="Customers"/>
-
-    <fragment
-        android:id="@+id/remindersFragment"
-        android:name="com.example.ekhata.ui.notifications.RemindersFragment"
-        android:label="Reminders"/>
-
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.example.ekhata.ui.profile.ProfileFragment"
-        android:label="Profile"/>
+        android:id="@+id/addCustomerFragment"
+        android:name="com.example.ekhata.features.customer.presentation.ui.AddCustomerFragment"
+        android:label="AddCustomer"/>
 
 </navigation>

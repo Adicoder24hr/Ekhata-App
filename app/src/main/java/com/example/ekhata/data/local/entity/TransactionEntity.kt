@@ -4,6 +4,7 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
+import com.example.ekhata.features.customer.data.local.entity.CustomerEntity
 
 @Entity(tableName = "transactions",
     foreignKeys = [

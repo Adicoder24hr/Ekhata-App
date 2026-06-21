@@ -1,8 +1,8 @@
-package com.example.ekhata.di
+package com.example.ekhata.core.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.ekhata.data.local.dao.CustomerDao
+import com.example.ekhata.features.customer.data.local.dao.CustomerDao
 import com.example.ekhata.data.local.dao.TransactionDao
 import com.example.ekhata.data.local.database.KhataDatabase
 import dagger.Module

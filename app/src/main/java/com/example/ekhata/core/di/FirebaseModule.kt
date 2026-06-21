@@ -1,4 +1,4 @@
-package com.example.ekhata.di
+package com.example.ekhata.core.di
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore

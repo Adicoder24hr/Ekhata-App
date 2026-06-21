@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+        <!-- Primary brand colors -->
+        <color name="purple_primary">#6C63FF</color>
+        <color name="purple_dark">#534AB7</color>
+        <color name="purple_light">#EEEDFE</color>
+
+<!--        Secondary color-->
+
+        <color name="teal_secondary">#949292</color>
+
+        <!-- Semantic colors -->
+        <color name="udhar_red">#E24B4A</color>
+        <color name="udhar_red_bg">#FCEBEB</color>
+        <color name="payment_green">#3B8C11</color>
+        <color name="payment_green_bg">#EAF3DE</color>
+        <color name="overdue_orange">#D85A30</color>
+        <color name="overdue_orange_bg">#FFF0ED</color>
+
+        <!-- Neutral colors -->
+        <color name="background">#F8F9FF</color>
+        <color name="surface">#FFFFFF</color>
+        <color name="divider">#F0F0F8</color>
+        <color name="text_primary">#1A1A2E</color>
+        <color name="text_secondary">#888888</color>
+        <color name="text_hint">#AAAAAA</color>
+        <color name="white">#FFFFFF</color>
+
+        <!-- Card border -->
+        <color name="card_border">#E8E8F0</color>
+
 </resources>
